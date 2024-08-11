@@ -1,0 +1,7 @@
+# Copyright 2024 Manna Harbour
+# https://github.com/manna-harbour/miryoku
+
+outboard_repository=WainingForests/zmk-config-xiao-flex-v2dot2
+outboard_ref=3x6+5-TB
+outboard_from=config/boards/shields/xiao_flex_v2
+outboard_to=boards/shields/xiao_flex_v2
