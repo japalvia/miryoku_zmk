@@ -12,5 +12,5 @@ jobs:
       shield: '["xiao_flex_v2_left", "xiao_flex_v2_right"]'
       custom_config: '["#define MIRYOKU_KLUDGE_MOUSEKEYSPR"]'
       kconfig: '["CONFIG_ZMK_MOUSE=y"]'
-      branches: '["petejohanson/zmk/feat/pointers-move-scroll","zmkfirmware/zmk/main petejohanson/zmk/feat/pointers-move-scroll"]'
+      branches: '["japalvia/zmk/feat/pointers-move-scroll","zmkfirmware/zmk/main japalvia/zmk/feat/pointers-move-scroll"]'
       modules: '["inorichi/zmk-pmw3610-driver/main"]'
