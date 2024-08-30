@@ -1,5 +1,6 @@
 // Copyright 2022 Manna Harbour
 // https://github.com/manna-harbour/miryoku
+// vim: set ts=2 sw=2 et ai:
 
 #include <behaviors.dtsi>
 #include <behaviors/mouse_key_press.dtsi>
@@ -18,6 +19,23 @@
 #include <dt-bindings/zmk/mouse.h>
 
 / {
+  macros {
+    a_uml: a_uml {
+      compatible = "zmk,behavior-macro";
+      #binding-cells = <0>;
+      bindings
+      = <&macro_tap &kp RA(A) &kp DOUBLE_QUOTES>
+      ;
+    };
+    o_uml: o_uml {
+      compatible = "zmk,behavior-macro";
+      #binding-cells = <0>;
+      bindings
+      = <&macro_tap &kp RA(O) &kp DOUBLE_QUOTES>
+      ;
+    };
+  };
+
   keymap {
     compatible = "zmk,keymap";
 #define MIRYOKU_X(LAYER, STRING) \
